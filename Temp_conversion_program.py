@@ -16,32 +16,32 @@ select_1=int(input("Enter option(1-6) : "))
 degree=float(input("Enter temperature: "))
 
 
-#creating loop for conversion type=1 (celsius to fahrenheit)
+# Applying condition for conversion type=1 (celsius to fahrenheit)
 if select_1==1:
    fahrenheit = (9/5) * degree + 32
    print(degree,"Celsius = ",fahrenheit,"Fahrenheit")
 
-#creating loop for conversion type=2 (celsius to kelvin)
+# Applying condition for conversion type=2 (celsius to kelvin)
 elif select_1==2:
   kelvin = degree + 273.25
   print(degree,"Celsius = ",kelvin,"Kelvin")
 
-#creating loop for conversion type=3 (fahrenheit to celsius)
+#Applying condition for conversion type=3 (fahrenheit to celsius)
 elif select_1==3:
   celsius = (degree-32) * 5/9
   print(degree,"Fahrenheit = ",celsius,"Celsius")
 
-#creating loop for conversion type=4 (fahrenheit to kelvin)
+# Applying condition for conversion type=4 (fahrenheit to kelvin)
 elif select_1==4:
   kelvin = (degree-32) * 5/9 + 273.15
   print(degree,"Fahrenheit = ",kelvin,"Kelvin")
 
-#creating loop for conversion type=5 (kelvin to celsius )
+# Applying condition for conversion type=5 (kelvin to celsius )
 elif select_1==5:
  celsius=degree-273.15
  print(degree,"Kelvin = ",celsius,"Celsius")
 
-#creating loop for conversion type=6 (kelvin to fahrenheit)
+# Applying condition for conversion type=6 (kelvin to fahrenheit)
 elif select_1==6:
  fahrenheit=(degree-273.15) * 9/5 + 32
  print(degree,"Kelvin = ",fahrenheit,"Fahrenheit")   
