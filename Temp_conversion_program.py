@@ -46,7 +46,8 @@ elif select_1==6:
  fahrenheit=(degree-273.15) * 9/5 + 32
  print(degree,"Kelvin = ",fahrenheit,"Fahrenheit")   
    
-
+else:
+print("invalid input")
  
    
         
